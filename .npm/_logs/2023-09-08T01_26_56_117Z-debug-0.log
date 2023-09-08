@@ -1,0 +1,264 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@9.8.1
+2 info using node@v19.9.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 31ms
+6 timing config:load:builtin Completed in 32ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 9ms
+10 timing config:load:file:/home/container/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 1ms
+15 timing config:load Completed in 49ms
+16 timing npm:load:configload Completed in 50ms
+17 timing config:load:flatten Completed in 5ms
+18 timing npm:load:mkdirpcache Completed in 55ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install
+21 verbose argv "install"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2023-09-08T01_26_56_117Z-
+25 verbose logfile /home/container/.npm/_logs/2023-09-08T01_26_56_117Z-debug-0.log
+26 timing npm:load:logFile Completed in 13ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 150ms
+30 timing arborist:ctor Completed in 1ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 1ms
+33 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+34 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+35 timing idealTree:init Completed in 594ms
+36 timing idealTree:userRequests Completed in 0ms
+37 silly idealTree buildDeps
+38 timing idealTree:#root Completed in 0ms
+39 silly fetch manifest libsignal@git+https://github.com/adiwajshing/libsignal-node
+40 http fetch GET 200 https://registry.npmjs.org/npm 865ms (cache miss)
+41 silly placeDep ROOT libsignal@2.0.1 REPLACE for: baileys-md@5.0.5 want: git+https://github.com/adiwajshing/libsignal-node
+42 timing idealTree:node_modules/@adiwajshing/baileys Completed in 1983ms
+43 timing idealTree:node_modules/libsignal Completed in 0ms
+44 timing idealTree:buildDeps Completed in 1986ms
+45 timing idealTree:fixDepFlags Completed in 6ms
+46 timing idealTree Completed in 2592ms
+47 timing reify:loadTrees Completed in 2594ms
+48 timing reify:diffTrees Completed in 4ms
+49 silly reify mark retired [
+49 silly reify   '/home/container/node_modules/figlet',
+49 silly reify   '/home/container/node_modules/.bin/figlet'
+49 silly reify ]
+50 silly reify mark retired [ '/home/container/node_modules/libsignal' ]
+51 silly reify mark retired [
+51 silly reify   '/home/container/node_modules/protobufjs',
+51 silly reify   '/home/container/node_modules/.bin/pbjs',
+51 silly reify   '/home/container/node_modules/.bin/pbts'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/home/container/node_modules/pino',
+52 silly reify   '/home/container/node_modules/.bin/pino'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/home/container/node_modules/qrcode-terminal',
+53 silly reify   '/home/container/node_modules/.bin/qrcode-terminal'
+53 silly reify ]
+54 silly reify moves {
+54 silly reify   '/home/container/node_modules/figlet': '/home/container/node_modules/.figlet-N6its1rj',
+54 silly reify   '/home/container/node_modules/.bin/figlet': '/home/container/node_modules/.bin/.figlet-LrVM7l17',
+54 silly reify   '/home/container/node_modules/libsignal': '/home/container/node_modules/.libsignal-mQOErmg7',
+54 silly reify   '/home/container/node_modules/protobufjs': '/home/container/node_modules/.protobufjs-a46ldCGB',
+54 silly reify   '/home/container/node_modules/.bin/pbjs': '/home/container/node_modules/.bin/.pbjs-NzJRM0ey',
+54 silly reify   '/home/container/node_modules/.bin/pbts': '/home/container/node_modules/.bin/.pbts-ycRLgpmv',
+54 silly reify   '/home/container/node_modules/pino': '/home/container/node_modules/.pino-W4hvP06Q',
+54 silly reify   '/home/container/node_modules/.bin/pino': '/home/container/node_modules/.bin/.pino-XdK6afH4',
+54 silly reify   '/home/container/node_modules/qrcode-terminal': '/home/container/node_modules/.qrcode-terminal-53hvKJrm',
+54 silly reify   '/home/container/node_modules/.bin/qrcode-terminal': '/home/container/node_modules/.bin/.qrcode-terminal-78EnKQFw'
+54 silly reify }
+55 timing reify:retireShallow Completed in 8ms
+56 timing reify:createSparse Completed in 3ms
+57 timing reify:loadBundles Completed in 0ms
+58 silly audit bulk request {
+58 silly audit   'ansi-styles': [ '4.3.0' ],
+58 silly audit   asynckit: [ '0.4.0' ],
+58 silly audit   'atomic-sleep': [ '1.0.0' ],
+58 silly audit   'available-typed-arrays': [ '1.0.5' ],
+58 silly audit   'awesome-phonenumber': [ '2.73.0' ],
+58 silly audit   axios: [ '1.4.0' ],
+58 silly audit   'call-bind': [ '1.0.2' ],
+58 silly audit   chalk: [ '4.1.2' ],
+58 silly audit   'color-convert': [ '2.0.1' ],
+58 silly audit   clone: [ '2.1.2' ],
+58 silly audit   'color-name': [ '1.1.4' ],
+58 silly audit   'combined-stream': [ '1.0.8' ],
+58 silly audit   'content-type': [ '1.0.5' ],
+58 silly audit   crypto: [ '1.0.1' ],
+58 silly audit   'curve25519-js': [ '0.0.4' ],
+58 silly audit   'delayed-stream': [ '1.0.0' ],
+58 silly audit   debug: [ '4.3.4' ],
+58 silly audit   duplexify: [ '4.1.2' ],
+58 silly audit   'end-of-stream': [ '1.4.4' ],
+58 silly audit   'fast-redact': [ '3.3.0' ],
+58 silly audit   figlet: [ '1.6.0' ],
+58 silly audit   'file-type': [ '16.5.4' ],
+58 silly audit   'follow-redirects': [ '1.15.2' ],
+58 silly audit   'for-each': [ '0.3.3' ],
+58 silly audit   'form-data': [ '4.0.0' ],
+58 silly audit   fs: [ '0.0.1-security' ],
+58 silly audit   'function-bind': [ '1.1.1' ],
+58 silly audit   'futoin-hkdf': [ '1.5.3' ],
+58 silly audit   'get-intrinsic': [ '1.2.1' ],
+58 silly audit   gopd: [ '1.0.1' ],
+58 silly audit   has: [ '1.0.3' ],
+58 silly audit   'has-flag': [ '4.0.0' ],
+58 silly audit   'has-proto': [ '1.0.1' ],
+58 silly audit   'has-symbols': [ '1.0.3' ],
+58 silly audit   'has-tostringtag': [ '1.0.0' ],
+58 silly audit   ieee754: [ '1.2.1' ],
+58 silly audit   inherits: [ '2.0.4' ],
+58 silly audit   'is-arguments': [ '1.1.1' ],
+58 silly audit   'is-callable': [ '1.2.7' ],
+58 silly audit   'is-typed-array': [ '1.1.12' ],
+58 silly audit   'is-generator-function': [ '1.0.10' ],
+58 silly audit   protobufjs: [ '6.11.3', '6.8.8' ],
+58 silly audit   '@types/node': [ '20.4.10', '10.17.60' ],
+58 silly audit   lodash: [ '4.17.21' ],
+58 silly audit   long: [ '4.0.0' ],
+58 silly audit   'media-typer': [ '1.1.0' ],
+58 silly audit   'mime-db': [ '1.52.0' ],
+58 silly audit   ms: [ '2.1.2' ],
+58 silly audit   'mime-types': [ '2.1.35' ],
+58 silly audit   'music-metadata': [ '7.13.4' ],
+58 silly audit   'node-cache': [ '5.1.2' ],
+58 silly audit   'peek-readable': [ '4.1.0' ],
+58 silly audit   pino: [ '7.11.0' ],
+58 silly audit   once: [ '1.4.0' ],
+58 silly audit   'on-exit-leak-free': [ '0.2.0' ],
+58 silly audit   'pino-abstract-transport': [ '0.5.0' ],
+58 silly audit   'pino-std-serializers': [ '4.0.0' ],
+58 silly audit   'process-warning': [ '1.0.0' ],
+58 silly audit   'proxy-from-env': [ '1.1.0' ],
+58 silly audit   'qrcode-terminal': [ '0.12.0' ],
+58 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+58 silly audit   'readable-stream': [ '3.6.2' ],
+58 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+58 silly audit   'real-require': [ '0.1.0' ],
+58 silly audit   'safe-buffer': [ '5.2.1' ],
+58 silly audit   'safe-stable-stringify': [ '2.4.3' ],
+58 silly audit   'sonic-boom': [ '2.8.0' ],
+58 silly audit   split2: [ '4.2.0' ],
+58 silly audit   'stream-shift': [ '1.0.1' ],
+58 silly audit   string_decoder: [ '1.3.0' ],
+58 silly audit   strtok3: [ '6.3.0' ],
+58 silly audit   'supports-color': [ '7.2.0' ],
+58 silly audit   'thread-stream': [ '0.15.2' ],
+58 silly audit   'token-types': [ '4.2.1' ],
+58 silly audit   util: [ '0.12.5' ],
+58 silly audit   'util-deprecate': [ '1.0.2' ],
+58 silly audit   'which-typed-array': [ '1.1.11' ],
+58 silly audit   wrappy: [ '1.0.2' ],
+58 silly audit   ws: [ '8.13.0' ],
+58 silly audit   'baileys-md': [ '5.0.5' ],
+58 silly audit   '@hapi/boom': [ '9.1.4', '10.0.1' ],
+58 silly audit   '@hapi/hoek': [ '9.3.0', '11.0.2' ],
+58 silly audit   '@adiwajshing/keyed-db': [ '0.2.4' ],
+58 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+58 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+58 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+58 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+58 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+58 silly audit   '@protobufjs/float': [ '1.0.2' ],
+58 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+58 silly audit   '@protobufjs/path': [ '1.1.2' ],
+58 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+58 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+58 silly audit   '@tokenizer/token': [ '0.3.0' ],
+58 silly audit   '@types/long': [ '4.0.2' ],
+58 silly audit   libsignal: [ '2.0.1' ]
+58 silly audit }
+59 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 165ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/figlet 257ms (cache miss)
+61 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 282ms
+62 timing auditReport:getReport Completed in 286ms
+63 silly audit report {
+63 silly audit report   protobufjs: [
+63 silly audit report     {
+63 silly audit report       id: 1092988,
+63 silly audit report       url: 'https://github.com/advisories/GHSA-h755-8qp9-cq85',
+63 silly audit report       title: 'protobufjs Prototype Pollution vulnerability',
+63 silly audit report       severity: 'critical',
+63 silly audit report       vulnerable_versions: '>=6.10.0 <6.11.4',
+63 silly audit report       cwe: [Array],
+63 silly audit report       cvss: [Object]
+63 silly audit report     }
+63 silly audit report   ]
+63 silly audit report }
+64 timing metavuln:cache:get:security-advisory:protobufjs:/IuVpvnBqC1yqJ6T2X9/xL5qXJ7jtJSZeNg53efb6iWHjXzsLsK0i2qMirTv06rR65pQ12Gd5w4ThOl5MeieHQ== Completed in 6ms
+65 http fetch GET 200 https://registry.npmjs.org/protobufjs 370ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/protobufjs 378ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz 222ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/protobufjs 126ms (cache miss)
+69 timing metavuln:packument:protobufjs Completed in 130ms
+70 timing metavuln:load:security-advisory:protobufjs:1092988 Completed in 8ms
+71 timing reifyNode:node_modules/qrcode-terminal Completed in 480ms
+72 timing metavuln:cache:put:security-advisory:protobufjs:/IuVpvnBqC1yqJ6T2X9/xL5qXJ7jtJSZeNg53efb6iWHjXzsLsK0i2qMirTv06rR65pQ12Gd5w4ThOl5MeieHQ== Completed in 73ms
+73 timing metavuln:calculate:security-advisory:protobufjs:1092988 Completed in 212ms
+74 timing metavuln:cache:get:security-advisory:baileys-md:R/892RSIYsxY8zGOZ6TsCb19SNOuVSEFW02HxNw4bIXTV+Cm4FpTY4hJ+AMQ8l8b4yLsVFeLU2VVjm+dcito4Q== Completed in 2ms
+75 http fetch GET 200 https://registry.npmjs.org/baileys-md 89ms (cache miss)
+76 timing metavuln:packument:baileys-md Completed in 90ms
+77 timing metavuln:load:security-advisory:baileys-md:/IuVpvnBqC1yqJ6T2X9/xL5qXJ7jtJSZeNg53efb6iWHjXzsLsK0i2qMirTv06rR65pQ12Gd5w4ThOl5MeieHQ== Completed in 2ms
+78 http fetch GET 200 https://codeload.github.com/adiwajshing/libsignal-node/tar.gz/11dbd962ea108187c79a7c46fe4d6f790e23da97 540ms (cache miss)
+79 timing arborist:ctor Completed in 0ms
+80 timing metavuln:cache:put:security-advisory:baileys-md:R/892RSIYsxY8zGOZ6TsCb19SNOuVSEFW02HxNw4bIXTV+Cm4FpTY4hJ+AMQ8l8b4yLsVFeLU2VVjm+dcito4Q== Completed in 78ms
+81 timing metavuln:calculate:security-advisory:baileys-md:/IuVpvnBqC1yqJ6T2X9/xL5qXJ7jtJSZeNg53efb6iWHjXzsLsK0i2qMirTv06rR65pQ12Gd5w4ThOl5MeieHQ== Completed in 171ms
+82 timing auditReport:init Completed in 384ms
+83 timing reify:audit Completed in 671ms
+84 timing reifyNode:node_modules/libsignal Completed in 967ms
+85 http fetch GET 200 https://registry.npmjs.org/pino 1150ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/protobufjs/-/protobufjs-6.11.3.tgz 1174ms (cache miss)
+87 timing reifyNode:node_modules/protobufjs Completed in 1570ms
+88 http fetch GET 200 https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz 1179ms (cache miss)
+89 timing reifyNode:node_modules/libsignal/node_modules/protobufjs Completed in 1583ms
+90 http fetch GET 200 https://registry.npmjs.org/pino/-/pino-7.11.0.tgz 491ms (cache miss)
+91 timing reifyNode:node_modules/pino Completed in 1669ms
+92 http fetch GET 200 https://registry.npmjs.org/figlet/-/figlet-1.6.0.tgz 1705ms (cache miss)
+93 timing reifyNode:node_modules/figlet Completed in 1983ms
+94 timing reify:unpack Completed in 1985ms
+95 timing reify:unretire Completed in 10ms
+96 timing build:queue Completed in 1ms
+97 timing build:link:node_modules/figlet Completed in 4ms
+98 timing build:link:node_modules/pino Completed in 3ms
+99 timing build:link:node_modules/qrcode-terminal Completed in 4ms
+100 timing build:link:node_modules/protobufjs Completed in 4ms
+101 timing build:link:node_modules/libsignal/node_modules/protobufjs Completed in 4ms
+102 timing build:link Completed in 5ms
+103 info run protobufjs@6.11.3 postinstall node_modules/protobufjs node scripts/postinstall
+104 info run protobufjs@6.8.8 postinstall node_modules/libsignal/node_modules/protobufjs node scripts/postinstall
+105 info run protobufjs@6.11.3 postinstall { code: 0, signal: null }
+106 timing build:run:postinstall:node_modules/protobufjs Completed in 261ms
+107 info run protobufjs@6.8.8 postinstall { code: 0, signal: null }
+108 timing build:run:postinstall:node_modules/libsignal/node_modules/protobufjs Completed in 201ms
+109 timing build:run:postinstall Completed in 270ms
+110 timing build:deps Completed in 277ms
+111 timing build Completed in 277ms
+112 timing reify:build Completed in 278ms
+113 timing reify:trash Completed in 201ms
+114 timing reify:save Completed in 30ms
+115 timing reify Completed in 5356ms
+116 silly CHANGE node_modules/qrcode-terminal
+117 silly CHANGE node_modules/pino
+118 silly CHANGE node_modules/protobufjs
+119 silly CHANGE node_modules/libsignal
+120 silly CHANGE node_modules/libsignal/node_modules/protobufjs
+121 silly CHANGE node_modules/figlet
+122 timing command:install Completed in 5378ms
+123 notice
+123 notice New [31mmajor[39m version of npm available! [31m9.8.1[39m -> [32m10.0.0[39m
+123 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.0.0[39m
+123 notice Run [32mnpm install -g npm@10.0.0[39m to update!
+123 notice
+124 verbose exit 0
+125 timing npm Completed in 5959ms
+126 info ok
