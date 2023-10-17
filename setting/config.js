@@ -6,7 +6,7 @@ global.author = "FOXhost"; // isi pake nama kalian
 global.packname = "FOXhost";
 global.sessionName = "auth";
 global.versionbot = "5.0.0";
-global.delay = `6000`
+global.delay = `4000`
 global.mess = {
     wait: "Loading...",
     owner: "*Gausah sok asik*",
